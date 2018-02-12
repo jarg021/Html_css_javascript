@@ -1,0 +1,43 @@
+.ulMenu{
+		list-style-type:none; /* Esta configuracion css determina  que tipo de viñeta se utilizara en nuestra lista*/
+		margin:0; /*Se indica que el marge sera de 0*/
+		padding:0; /*Se indica que los espacidos del contenido del elemento es de 0*/
+		display:flex; /*Se indica que el display sera flexible*/
+		flex-direction: row;/*La direccion de la flexibilidad es de forma horizontal*/
+	}
+	.liMenu { flex-grow: 1; }
+	.menu{
+		display: block;/*Se indica que el display sera por bloques*/
+		padding: 1%;/*Se indica que el espaciado de del cotenido del elemento sera del 1%*/
+		background-color: Tomato;/*Se indica que el color sera de tomato*/
+		opacity: 0.8;/*La opacidad del color sera de 0.5*/
+		text-align: center;/*El texto estara alineado al centro*/
+		margin-right: 2%;/*El margen a la derecha sera de 2%*/
+		text-decoration: none;/*El texto no tendra ningun tipo de decoracion*/
+		color:#000000;
+		font-size: 100%;/*El tamaño del elemento sera del 100%*/
+	}
+	.menu:hover{background-color: Tomato;/*Designando color a cuando la etiqueta de hypertexto  tenga el cursos sobrepuesto*/
+		opacity: 2;/*Aumentando la opacidad  de 0.8 a 2 cuando el la etiqueta de hypertexto este seleccionada*/
+	}
+	nav{
+		width: 100%;/*Designando el tamaño a un 100% del ancho de la ventana de nuestra etiqueta nav*/
+		height: 10%;/*Designando el tamaño a un 10% de alto de la ventana de nuesta etiqueta nav*/
+	}
+	img{/*Designando tamaños a la imagen*/
+		width: 8%;
+		height: 8%;
+	}
+	body{
+		background-color:#edfff6 ;
+		
+	}
+	.em1{
+		color: red;
+	}
+	.em2{
+		color:blue;
+	}
+	.em3{
+		color: orange;
+	}
